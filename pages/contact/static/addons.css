@@ -1,8 +1,8 @@
-.bg-lawyer {
+.bg-contact {
   /* height: 100vh; */
 
   /* Location of the image */
-  background-image: url('/static/law.jpg');
+  background-image: url('contact.jpg');
 
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
@@ -20,23 +20,18 @@
 
   /* Set a background color that will be displayed
      while the background image is loading */
-  background-color: black;
+  background-color: white;
 }
 
 nav {
-   background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
-.bg-transparent-black {
-  background-color: rgba(0, 0, 0, 0.4);
+.bg-transparent-white {
+  background-color: rgba(255, 255, 255, 0.4);
 }
-
 
 @media only screen and (max-width: 600px) {
-  .top {
-    height: 145vh;
-  }
-
   .logo-class {
     width: 30vw;
     height: 30vw;
@@ -44,10 +39,6 @@ nav {
 }
 
 @media only screen and (min-width: 600px) {
-  .top {
-    height: 160vh;
-  }
-
   .logo-class {
     width: 7vw;
     height: 7vw;
@@ -55,13 +46,7 @@ nav {
 }
 
 @media only screen and (min-width: 700px) {
-  .top {
-    height: 165vh;
-  }
 }
 
 @media only screen and (min-width: 992px) {
-  .top {
-    height: 100vh;
-  }
 }
